@@ -76,3 +76,19 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  * {
+    /* header高度 */
+    --header-height: 3.5rem;
+  }
+  .active-nav {
+    @apply !text-foreground font-semibold;
+  }
+}
+
+@layer utilities {
+  .highlight {
+    @apply bg-green-500/50 rounded-sm decoration-foreground decoration-4;
+  }
+}
