@@ -35,8 +35,18 @@ import { Button } from '@/components/ui/button'
           <div class="flex items-center font-bold ml-2">Shadcn Admin</div>
         </div>
         <nav class="flex items-center ml-4 text-sm font-medium text-foreground/60">
-          <RouterLink class="hover:text-foreground/80" to="/" active-class="active-nav"
+          <RouterLink class="hover:text-foreground/80" to="/home" active-class="active-nav"
             >Home</RouterLink
+          >
+          <RouterLink class="hover:text-foreground/80 ml-2" to="/authorization" active-class="active-nav"
+          >
+            Authorization
+          </RouterLink
+          >
+          <RouterLink class="hover:text-foreground/80 ml-2" to="/component" active-class="active-nav"
+          >
+            Component
+          </RouterLink
           >
         </nav>
       </div>
